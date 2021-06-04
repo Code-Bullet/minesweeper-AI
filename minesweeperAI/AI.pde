@@ -445,7 +445,7 @@ class AI {
       } else {//checking is not a solution
         if (!violated(checking, checkingInt, hiddensInSection, section)) {//if its voilated the ruiles of minesweeper then ignore it
           //if the checking list has not yet voilated the section then add more bombs to it
-          for (int i = checkingInt.get(checkingInt.size()-1) +1; i < hiddensInSection.size(); i++ ) {//extend checking by one number with all possible niggers
+          for (int i = checkingInt.get(checkingInt.size()-1) +1; i < hiddensInSection.size(); i++ ) {//extend checking by one number with all possible integers
 
             tempList = (ArrayList)checkingInt.clone();
 
